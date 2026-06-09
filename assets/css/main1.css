@@ -1,4 +1,4 @@
-* {
+        * {
             margin: 0;
             padding: 0;
         }
@@ -7,6 +7,12 @@
             background: #000;
             font-family: 'Segoe UI', sans-serif;
         }
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
 
         .navbar {
             background: rgba(0, 0, 0, 0.85);
@@ -720,7 +726,6 @@ overflow:hidden;
 transition:.4s;
 display: flex;
 flex-direction: column;
-height: 100%;
 }
 
 .project-card:hover{
@@ -810,9 +815,10 @@ text-align: center;
     .projects-grid{
         grid-template-columns: 1fr;
         padding : 0 15px;
+        margin: 5px;
     }
 
-    .project-card img{
+    /* .project-card img{
         height: 180px;
     }
 
@@ -822,13 +828,13 @@ text-align: center;
 
     .project-links a{
         width : 100%;
-    }
+    } */
 }
 
 /* Blogs Section */
 
 
-.blogs-section{
+.blog-section{
     background:
     linear-gradient(
         rgba(5,15,40,0.95),
@@ -843,24 +849,23 @@ text-align: center;
 
 
 
-.blogs-grid{
+.blog-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:35px;
-    margin : 50px;
-    padding : 0 30px;
-
+    margin:50px;
+    padding:0 30px;
 }
 
 .blog-card{
     background:rgba(255,255,255,0.05);
     border:1px solid rgba(0,212,255,.2);
     border-radius:20px;
-    padding:30px;
+    padding:20px;
     transition:.4s;
     display: flex;
     flex-direction: column;
-    height:100%;
+    
     
 }
 
@@ -872,7 +877,7 @@ text-align: center;
 .blog-card img{
 width:100%;
 height:220px;
-object-fit:contain;
+object-fit:cover;
 background:#081b29;
 display:block;
 border-radius: 15px;
@@ -947,7 +952,7 @@ border-radius: 15px;
 .read-btn{
     display:block;
     text-align:center;
-    margin-top:20px;
+    margin-top:auto;
 
     color:#00d4ff;
     text-decoration:none;
@@ -958,6 +963,7 @@ border-radius: 15px;
     .blog-grid{
         grid-template-columns:1fr;
         padding : 0 15px;
+        margin: 5px;
     }
 
 
