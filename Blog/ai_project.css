@@ -1,0 +1,347 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+
+body{
+    background: url('/assets/css/images/ai-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+     min-height:100vh;
+    color:#a9b1bd;
+}
+
+/* Hero Section */
+
+
+
+/* Hero Section */
+
+.hero-section{
+    background: url('/assets/css/images/ai-bg.png');
+    padding:80px 0;
+    text-align:center;
+    color:white;
+    position:relative;
+    overflow:hidden;
+}
+
+
+/* Title */
+
+
+
+.hero-section::before{
+    content:'';
+    position:absolute;
+    width:400px;
+    height:400px;
+    background:rgba(255,255,255,0.08);
+    border-radius:50%;
+    top:-150px;
+    right:-100px;
+}
+
+.hero-content h1{
+    color:#FFD700;
+    text-shadow:0 0 20px rgba(255,215,0,.4);
+}
+
+.hero-content p{
+    color:#d8b4fe;
+}
+
+.hero-content h1{
+    font-size:clamp(2.5rem,5vw,4rem);
+    font-weight:700;
+    margin-bottom:15px;
+    color: white;
+}
+
+.hero-content p{
+    max-width:700px;
+    margin:auto;
+    font-size:1.1rem;
+    opacity:.95;
+    color:#67e8f9;
+}
+
+
+
+/* Main Blog Card */
+
+.blog-card{
+    background: rgba(25,18,45,0.92);
+    backdrop-filter: blur(12px);
+    border:1px solid rgba(255,215,0,0.15);
+    border-radius:25px;
+    padding:40px;
+    margin-top:-50px;
+    box-shadow:0 0 40px rgba(255,215,0,0.08);
+     position:relative;
+    z-index:10;
+     box-shadow:0 20px 50px rgba(0,0,0,.12);
+}
+
+
+
+/* Banner Image */
+
+.hero-image{
+    width:100%;
+    border-radius:20px;
+    margin-bottom:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+/* Headings */
+
+h2{
+    color:#2563eb;
+    font-weight:700;
+    margin-bottom:20px;
+    margin-top:30px;
+}
+
+h5{
+    font-weight:600;
+    color:#1e293b;
+}
+
+/* Paragraph */
+
+p{
+    color:#475569;
+    line-height:1.9;
+    font-size:1rem;
+}
+
+/* Feature Cards */
+
+.feature-card{
+    background:#f8fafc;
+    border:1px solid #e2e8f0;
+    border-radius:18px;
+    padding:25px;
+    height:100%;
+    transition:0.3s;}
+
+.feature-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 25px rgba(37,99,235,.12);
+}
+
+.feature-card h5{
+    color:#2563eb;
+}
+
+/* Architecture */
+
+.architecture-box{
+    background:#140f24;
+    border:1px solid rgba(255,215,0,.15);
+}
+
+.architecture-box pre{
+    color:#fcd34d;
+}
+
+.architecture-box{
+    background:#0f172a;
+    color:#38bdf8;
+    border-radius:20px;
+    padding:25px;
+    overflow:auto;
+}
+
+.architecture-box pre{
+    margin:0;
+    color:#67e8f9;
+    font-size:1rem;
+}
+
+/* Voice Commands */
+
+.voice-box{
+    background:#eff6ff;
+    border-left:5px solid #2563eb;
+    padding:15px 20px;
+    border-radius:10px;
+    font-style:italic;
+    color:#e2e8f0;
+}
+
+/* Skills */
+
+
+.skill-box{
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #4f46e5
+    );
+    color:white;
+    text-align:center;
+    padding:15px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.skill-box:hover{
+    transform:scale(1.05);
+}
+
+
+.skill-box{
+    background:linear-gradient(
+        135deg,
+        #7c3aed,
+        #a855f7
+    );
+    color:white;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.skill-box:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 20px rgba(168,85,247,.4);
+}
+
+
+
+/* Buttons */
+
+.btn-info{
+    background:#FFD700;
+    color:#111827;
+    border:none;
+    font-weight:600;
+}
+
+.btn-info:hover{
+    background:#facc15;
+}
+
+.btn-outline-info{
+    border:2px solid #FFD700;
+    color:#FFD700;
+}
+
+.btn-outline-info:hover{
+    background:#FFD700;
+    color:#111827;
+}
+
+.btn-info{
+    background:#2563eb;
+    border:none;
+}
+
+.btn-info:hover{
+    background:#1d4ed8;
+}
+
+.btn-outline-info{
+    border:2px solid #2563eb;
+    color:#2563eb;
+}
+
+.btn-outline-info:hover{
+    background:#2563eb;
+    color:white;
+}
+
+/* HR */
+
+hr{
+    border:none;
+    height:1px;
+    background:#cbd5e1;
+    margin:40px 0;
+}
+
+/* Mobile */
+
+
+
+/* Main Card */
+
+
+
+/* Section Headings */
+
+h2{
+    color:#FFD700;
+    border-left:4px solid #FFD700;
+    padding-left:15px;
+}
+
+h5{
+    color:#FFD700;
+}
+
+/* Paragraph */
+
+p{
+    color:#d1d5db;
+}
+
+/* Feature Cards */
+
+.feature-card{
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,215,0,.12);
+    border-radius:18px;
+    padding:25px;
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(255,215,0,.15);
+}
+
+
+
+
+/* Voice Box */
+
+.voice-box{
+    background:rgba(255,215,0,.08);
+    border-left:5px solid #FFD700;
+    color:#fef3c7;
+}
+
+/* Skill Boxes */
+
+
+
+
+
+@media(max-width:768px){
+
+    .blog-card{
+        padding:25px;
+        border-radius:20px;
+    }
+
+    .hero-section{
+        padding:60px 20px;
+    }
+
+    h2{
+        font-size:1.6rem;
+    }
+
+    p{
+        font-size:.95rem;
+    }
+}

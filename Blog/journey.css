@@ -1,0 +1,277 @@
+/* body{
+    background:
+    /* linear-gradient(
+        rgba(5,8,22,0.88),
+        rgba(5,8,22,0.92)
+    ),
+    url("/images/journey-bg.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.journey-card{
+    background: rgba(10,20,45,0.92);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0,255,255,.15);
+}
+
+.journey-title{
+    color:#00d9ff;
+    font-weight:700;
+    text-shadow:0 0 15px #00d9ff;
+}
+
+h2{
+    color:#00d9ff;
+    margin-top:35px;
+    margin-bottom:15px;
+}
+
+p{
+    color:#d8e3ff;
+    line-height:1.9;
+}
+
+.feature-box{
+    background: rgba(0,217,255,.08);
+    border:1px solid rgba(0,217,255,.25);
+    border-radius:15px;
+    padding:20px;
+    height:100%;
+    transition:.3s;
+}
+
+.feature-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px rgba(0,217,255,.25);
+}
+
+.feature-box h5{
+    color:#00d9ff;
+}
+
+hr{
+    border-color:rgba(0,217,255,.3);
+}
+
+
+.container-custom{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.journey-card{
+    background: rgba(10,20,45,0.92);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,217,255,.15);
+}
+
+.journey-title{
+    color:#00d9ff;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.journey-subtitle{
+    text-align:center;
+    color:#cfd8ff;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    margin-bottom:30px;
+}
+
+h2{
+    color:#00d9ff;
+    margin-top:30px;
+    margin-bottom:15px;
+    font-size: clamp(1.3rem, 3vw, 2rem);
+}
+
+p{
+    color:#e5e7eb;
+    line-height:1.8;
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+}
+
+@media(max-width:768px){
+
+    .journey-card{
+        padding:20px;
+    }
+
+    h2{
+        text-align:center;
+    }
+
+    p{
+        text-align:left;
+    }
+} */
+
+
+
+/* ==========================
+   Background
+========================== */
+
+body{
+    background:
+        /* linear-gradient(
+            rgba(248,250,252,0.95),
+            rgba(241,245,249,0.95)
+        ), */
+        url("/images/journey-bg.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==========================
+   Container
+========================== */
+
+.container-custom{
+    max-width: 950px;
+    margin: auto;
+    padding: 25px;
+}
+
+/* ==========================
+   Main Card
+========================== */
+
+.journey-card{
+    background: rgba(255,255,255,0.97);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(15,23,42,0.08);
+    border: 1px solid #e2e8f0;
+}
+
+/* ==========================
+   Main Title
+========================== */
+
+.journey-title{
+    color: #0f172a;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.journey-title::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #2563eb;
+    margin: 12px auto;
+    border-radius: 10px;
+}
+
+/* ==========================
+   Subtitle
+========================== */
+
+.journey-subtitle{
+    text-align: center;
+    color: #64748b;
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    margin-bottom: 35px;
+}
+
+/* ==========================
+   Section Headings
+========================== */
+
+h2{
+    color: #1d4ed8;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* ==========================
+   Paragraphs
+========================== */
+
+p{
+    color: #475569;
+    line-height: 1.9;
+    font-size: clamp(0.95rem, 2vw, 1.08rem);
+    text-align: justify;
+}
+
+/* ==========================
+   Feature Cards
+========================== */
+
+.feature-box{
+    background: #f8fafc;
+    border: 1px solid #dbeafe;
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.feature-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(37,99,235,0.15);
+}
+
+.feature-box h5{
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.feature-box p{
+    color: #64748b;
+}
+
+/* ==========================
+   Horizontal Line
+========================== */
+
+hr{
+    border: none;
+    height: 1px;
+    background: #cbd5e1;
+    margin: 30px 0;
+}
+
+/* ==========================
+   Mobile
+========================== */
+
+@media(max-width:768px){
+
+    .journey-card{
+        padding: 25px;
+    }
+
+    .journey-title{
+        font-size: 2rem;
+    }
+
+    h2{
+        text-align: left;
+        font-size: 1.4rem;
+    }
+
+    p{
+        text-align: left;
+    }
+}
