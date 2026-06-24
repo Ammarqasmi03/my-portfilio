@@ -24,7 +24,7 @@ body{
         rgba(15,23,42,0.85),
         rgba(15,23,42,0.9)
     ), */
-    url("/images/ai-bg1.jpeg");
+    url("images/ai-bg1.jpeg");
 
     background-size:cover;
     background-position:center;

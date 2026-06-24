@@ -17,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: url('/images/data-bg.jpeg');
+  background: url('images/data-bg.jpeg');
   color: var(--text-color);
   line-height: 1.7;
 }

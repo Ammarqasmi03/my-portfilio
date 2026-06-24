@@ -10,7 +10,7 @@
 
 
 body{
-    background: url('/assets/css/images/ai-bg.jpeg');
+    background: url('images/ai-bg.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -25,7 +25,7 @@ body{
 /* Hero Section */
 
 .hero-section{
-    background: url('/assets/css/images/ai-bg.png');
+    background: url('images/ai-bg.png');
     padding:80px 0;
     text-align:center;
     color:white;
